@@ -32,7 +32,7 @@ public class BatteryMonitorService extends Service {
     public void onCreate() {
         super.onCreate();
         Log.d(TAG_FOREGROUND_SERVICE, "My foreground service onCreate().");
-        onStartCommand()''
+       // onStartCommand();//todo
     }
 
     @Override
